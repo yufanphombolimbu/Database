@@ -44,5 +44,22 @@ not the table itself.
 
 truncate table name;
 truncate table limbu;
+
+# Alert table 
+mysql alert table statement 
+alert table name is statement is used to add, modify or delete columns in an existing table.
+# Alert table - add column
+mysql>alter table table_name add column_name data_type;
+mysql>alter table yufan add phone_number integer;
+
+# alter table - drop column
+
+mysql>alter table table_name drop column column_name data_type;
+
+mysql>alter table yufan drop column phonenumber integer;
+
+# alter table - modify column 
+mysql>alter table table_column modify column column_name datatypes;
+
 Reference from tutorials point and javatpoint, w3school
 
