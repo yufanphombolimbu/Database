@@ -1,0 +1,12 @@
+looking database or searching database in mysql by using command
+show databases;
+
+above command helps to list or search databases at has been stored in mysql 
+databases service.
+
+creating a new database in mysql 
+
+create database name;
+
+Reference from tutorials point and javatpoint
+
